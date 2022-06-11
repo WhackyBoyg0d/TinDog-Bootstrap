@@ -1,0 +1,14 @@
+#title {
+    background-color: brown;
+}
+
+.heading1 {
+    font:"Montserrat-Black";
+    size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
