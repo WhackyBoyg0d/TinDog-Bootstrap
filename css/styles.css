@@ -25,7 +25,7 @@ h2 {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Navbar  */
@@ -53,13 +53,18 @@ h2 {
 .phone {
     width: 60%;
     transform: rotate(25deg) ;
+    position: absolute;
 }
 
 /* features */
 
 #features {
     text-align: center;
-    padding: 7%;
+    padding: 7% 15% ;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+
 }
 
 h3 {
@@ -114,5 +119,25 @@ color: #ff4c68;
     margin: 20px 20px 50px;
 }
 
+/* pricing */
+
+#pricing{
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1113px) {
+    .phone {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
 
 
