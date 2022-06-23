@@ -7,8 +7,11 @@ body {
 
 }
 
+h1, h2, h3 {
+    font-family: "Montserrat";
+}
+
 h1 {
-    font:"Montserrat-Black";
     size: 3rem;
     line-height: 1.5;
     font-size:4.5rem;
@@ -17,7 +20,6 @@ h1 {
 }
 
 h2 {
-    font: "montserrat";
     color: white;
     font-weight: bold;
     font-size: 3rem;
@@ -140,4 +142,23 @@ color: #ff4c68;
     }
 }
 
+/*Call To Action*/
+
+.cta {
+    background-color:#fd2978;
+    text-align: center;
+}
+
+#cta1 {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: white;
+}
+
+/*Footer*/
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+}
 
